@@ -41,10 +41,10 @@ export const skillGroups = [
     title: "Frontend",
     items: ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
   },
-  { title: "Backend", items: ["Node.js", "REST APIs"] },
+  // { title: "Backend", items: ["Node.js", "REST APIs"] },
   {
     title: "State & Tools",
-    items: ["Redux Toolkit", "Git", "GitHub", "Vercel"],
+    items: ["Redux Toolkit", "Git", "GitHub"],
   },
   {
     title: "Additional knowledge",
