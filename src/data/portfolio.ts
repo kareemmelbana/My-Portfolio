@@ -53,12 +53,12 @@ export const services = [
   {
     title: "Landing Pages",
     description:
-      "High-converting responsive landing pages designed around clear business goals.",
+      "Responsive landing pages designed around clear business goals and user actions.",
   },
   {
     title: "Business Websites",
     description:
-      "Modern websites for businesses, brands, and personal businesses.",
+      "Modern websites for businesses, brands, startups, and personal brands.",
   },
   {
     title: "React Web Applications",
