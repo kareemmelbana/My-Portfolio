@@ -280,16 +280,16 @@ export const moreProjects: Project[] = [
 
 export const experience = [
   {
-    tag: "Freelance",
-    period: "2025 — Present",
-    role: "Freelance Software Engineer",
-    org: "Self-employed · Khamsat",
-    points: [
-      "Build client websites and web apps with React, Tailwind CSS and vanilla HTML/CSS/JS.",
-      "Deliver fully responsive layouts and right-to-left Arabic interfaces.",
-      "Handle the full cycle: design hand-off, development, deployment and iteration.",
-    ],
-  },
+  tag: "Freelance",
+  period: "2025 – Present",
+  role: "Freelance Software Engineer",
+  org: "Self-employed · Khamsat",
+  points: [
+    "Develop responsive websites and modern web applications using React, TypeScript, and Tailwind CSS.",
+    "Build user-friendly interfaces with a focus on performance, responsiveness, and accessibility.",
+    "Work directly with clients from requirements and development to deployment and final delivery."
+  ],
+},
   {
     tag: "Training",
     period: "2025",
