@@ -26,14 +26,13 @@ export function About() {
       index="01"
       label="About"
       title="I turn ideas into software that feels effortless."
-      intro="Graduate of the Digital Egypt Pioneers Initiative (DEPI) Round 3 React Track, delivering freelance web projects for clients through Khamsat."
+      intro="Completed the Digital Egypt Pioneers Initiative (DEPI) Round 3 React Track and currently building freelance web projects for clients through Khamsat."
     >
       <div className="grid gap-5 md:grid-cols-3">
         <Reveal className="panel p-6 sm:p-7">
           <h3 className="font-display text-lg font-semibold">Who I am</h3>
           <p className="mt-3 text-sm leading-relaxed text-muted-foreground">
-            Computer Science student and Software Engineer focused on building modern web
-            applications and digital experiences.
+            Computer Science student and Frontend-focused Software Engineer building modern websites and web applications with React and TypeScript.
           </p>
           <div className="mt-5 flex flex-wrap gap-x-4 gap-y-2">
             <a
