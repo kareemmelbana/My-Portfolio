@@ -32,7 +32,7 @@ export const navLinks = [
 
 export const stats = [
   { value: "18+", label: "Projects shipped" },
-  { value: "15+", label: "Freelance clients" },
+  { value: "18+", label: "Freelance clients" },
   { value: "Mansoura", label: "Based in" },
 ] as const;
 
@@ -46,7 +46,10 @@ export const skillGroups = [
     title: "State & Tools",
     items: ["Redux Toolkit", "Git", "GitHub", "Vercel"],
   },
-  { title: "Additional knowledge", items: ["Python", "C++"] },
+  {
+    title: "Additional knowledge",
+    items: ["Python", "C++", "C#", "Object-Oriented Programming", "Data Structures"],
+  },
 ] as const;
 
 export const services = [
