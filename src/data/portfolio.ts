@@ -48,7 +48,7 @@ export const skillGroups = [
   },
   {
     title: "Additional knowledge",
-    items: ["Python", "C++", "C#", "Object-Oriented Programming", "Data Structures"],
+    items: ["Python", "C++", "C#", "OOP", "Data Structures"],
   },
 ] as const;
 
