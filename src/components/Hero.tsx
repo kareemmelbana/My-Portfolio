@@ -31,7 +31,7 @@ export function Hero() {
                   className="size-2 shrink-0 rounded-full bg-primary shadow-[0_0_0_3px] shadow-primary/20"
                 />
                 <span className="truncate">
-                  {profile.name} · {profile.title} · Available for freelance
+                  {profile.name} · {profile.title} · Available for
                   work
                 </span>
               </p>
