@@ -201,19 +201,19 @@ export const moreProjects: Project[] = [
     demo: "https://specialty-burger.vercel.app/",
     source: "https://github.com/kareemmelbana",
   },
-  {
-    slug: "bessa",
-    name: "Bessa Project",
-    role: "Software Engineer / Frontend Developer",
-    description:
-      "Modern responsive website built to present a project clearly across desktop and mobile screens.",
-    image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_26_01 PM.png",
-    alt: "Bessa project website preview",
-    features: [],
-    tech: ["React.js", "Tailwind CSS", "Vercel"],
-    demo: "https://bessa-project.vercel.app/",
-    source: "https://github.com/kareemmelbana",
-  },
+  // {
+  //   slug: "bessa",
+  //   name: "Bessa Project",
+  //   role: "Software Engineer / Frontend Developer",
+  //   description:
+  //     "Modern responsive website built to present a project clearly across desktop and mobile screens.",
+  //   image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_26_01 PM.png",
+  //   alt: "Bessa project website preview",
+  //   features: [],
+  //   tech: ["React.js", "Tailwind CSS", "Vercel"],
+  //   demo: "https://bessa-project.vercel.app/",
+  //   source: "https://github.com/kareemmelbana",
+  // },
   {
     slug: "homeclean",
     name: "Home Clean — Cleaning Service",
