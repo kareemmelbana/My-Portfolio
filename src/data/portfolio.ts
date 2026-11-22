@@ -118,9 +118,9 @@ export const featuredProjects: Project[] = [
   {
     slug: "specialty-burger",
     name: "Specialty Burger",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
-      "Restaurant website designed to showcase a burger menu with a responsive, appetising layout.",
+      "Commercial restaurant website built for a freelance client to showcase their burger menu with a responsive, appetising layout.",
     image: "/images/projects/specialty-burger.jpg",
     alt: "Specialty burger restaurant website preview",
     features: [
@@ -137,7 +137,7 @@ export const featuredProjects: Project[] = [
   {
     slug: "nevermind-coffee",
     name: "Nevermind Coffee — Café Website",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
       "Arabic RTL landing page for Nevermind Coffee in Abha, featuring menu browsing, customer reviews, location details, and direct WhatsApp ordering.",
     image: "/images/projects/hero-nervand.jpg",
@@ -156,7 +156,7 @@ export const featuredProjects: Project[] = [
   {
     slug: "jabr-menswear",
     name: "JABR — Men's Wear Storefront",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
       "Modern e-commerce storefront for a men's clothing brand featuring product collections, winter piece customization, and a responsive shopping experience.",
     image: "/images/projects/Warm Beige.jpg",
@@ -193,7 +193,7 @@ export const featuredProjects: Project[] = [
   {
     slug: "loqmet-maleh-w-hali",
     name: "Loqmet Maleh W Hali — Digital Menu",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
       "Interactive digital menu for Loqmet Maleh W Hali restaurant, showcasing sweet and savory dishes with images and prices for fast, phone-first browsing at the table.",
     image: "/images/projects/menu.jpg",
