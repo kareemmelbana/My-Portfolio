@@ -283,7 +283,7 @@ export const experience = [
     tag: "Freelance",
     period: "2025 — Present",
     role: "Freelance Software Engineer",
-    org: "Self-employed · Khamsat",
+    org: "Self-employed · Independent",
     points: [
       "Build client websites and web apps with React, Tailwind CSS and vanilla HTML/CSS/JS.",
       "Deliver fully responsive layouts and right-to-left Arabic interfaces.",
