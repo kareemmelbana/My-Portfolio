@@ -12,7 +12,12 @@ export default defineConfig({
     tanstackStart({
       server: { entry: "server" },
     }),
-    nitro({ defaultPreset: "cloudflare-module" }),
+    // على Vercel نستخدم preset الخاص بها صراحةً، ومحلياً/باقي المنصات يبقى الافتراضي
+    nitro(
+      process.env.VERCEL
+        ? { preset: "vercel" }
+        : { defaultPreset: "cloudflare-module" },
+    ),
     viteReact(),
   ],
 });
