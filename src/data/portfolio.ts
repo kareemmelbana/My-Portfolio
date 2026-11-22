@@ -227,7 +227,7 @@ export const moreProjects: Project[] = [
   {
     slug: "homeclean",
     name: "Home Clean — Cleaning Service",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
       "Responsive landing page for a home-cleaning service in Jazan: services, pricing, information and direct customer contact.",
     image: "/images/projects/maid.jpg",
@@ -266,7 +266,7 @@ export const moreProjects: Project[] = [
   {
     slug: "nahr-alsoyoula-logistics",
     name: "Nahr Alsoyoula Logistics",
-    role: "Software Engineer / Frontend Developer",
+    role: "Freelance Frontend Developer",
     description:
       "Professional logistics website focused on services, trust and straightforward customer contact.",
     image: "/images/projects/Nahr-Alsoyoula.png",
