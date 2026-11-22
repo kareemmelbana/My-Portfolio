@@ -32,7 +32,7 @@ export const navLinks = [
 
 export const stats = [
   { value: "18+", label: "Projects shipped" },
-  { value: "18+", label: "Freelance clients" },
+  { value: "15+", label: "Freelance clients" },
   { value: "Mansoura", label: "Based in" },
 ] as const;
 
@@ -41,27 +41,24 @@ export const skillGroups = [
     title: "Frontend",
     items: ["React", "JavaScript", "TypeScript", "HTML", "CSS", "Tailwind CSS"],
   },
-  // { title: "Backend", items: ["Node.js", "REST APIs"] },
+  { title: "Backend", items: ["Node.js", "REST APIs"] },
   {
     title: "State & Tools",
-    items: ["Redux Toolkit", "Git", "GitHub"],
+    items: ["Redux Toolkit", "Git", "GitHub", "Vercel"],
   },
-  {
-    title: "Additional knowledge",
-    items: ["Python", "C++", "C#", "OOP", "Data Structures"],
-  },
+  { title: "Additional knowledge", items: ["Python", "C++"] },
 ] as const;
 
 export const services = [
   {
     title: "Landing Pages",
     description:
-      "Responsive landing pages designed around clear business goals and user actions.",
+      "High-converting responsive landing pages designed around clear business goals.",
   },
   {
     title: "Business Websites",
     description:
-      "Modern websites for businesses, brands, startups, and personal brands.",
+      "Modern websites for businesses, brands, and personal businesses.",
   },
   {
     title: "React Web Applications",
@@ -119,30 +116,69 @@ export const featuredProjects: Project[] = [
     source: "https://github.com/kareemmelbana",
   },
   {
-    slug: "nahr-alsoyoula-logistics",
-    name: "Nahr Alsoyoula Logistics",
+    slug: "specialty-burger",
+    name: "Specialty Burger",
     role: "Software Engineer / Frontend Developer",
     description:
-      "Professional logistics website focused on services, trust and straightforward customer contact.",
-    image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_24_48 PM.png",
-    alt: "Logistics website project preview",
+      "Restaurant website designed to showcase a burger menu with a responsive, appetising layout.",
+    image: "/images/projects/specialty-burger.jpg",
+    alt: "Specialty burger restaurant website preview",
     features: [
-      "Service presentation",
-      "Trust-focused layout",
-      "Responsive design",
-      "Direct contact",
+      "Interactive burger menu",
+      "Category & meal filtering",
+      "Component-based UI",
+      "Mobile-first responsive layout",
+      "Fast, optimized rendering",
     ],
     tech: ["React.js", "Tailwind CSS", "Vercel"],
-    demo: "https://nahr-alsoyoula-logistics.vercel.app/",
+    demo: "https://specialty-burger.vercel.app/",
     source: "https://github.com/kareemmelbana",
   },
+  {
+    slug: "nevermind-coffee",
+    name: "Nevermind Coffee — Café Website",
+    role: "Software Engineer / Frontend Developer",
+    description:
+      "Arabic RTL landing page for Nevermind Coffee in Abha, featuring menu browsing, customer reviews, location details, and direct WhatsApp ordering.",
+    image: "/images/projects/hero-nervand.jpg",
+    alt: "Nevermind Coffee website landing page with Arabic RTL interface",
+    features: [
+      "Arabic RTL interface",
+      "Interactive menu showcase",
+      "Direct WhatsApp ordering",
+      "Reviews & location sections",
+      "Responsive, fluid layout",
+    ],
+    tech: ["React.js", "Tailwind CSS", "Vercel"],
+    demo: "https://cafe-ashen-five.vercel.app/",
+    source: "https://github.com/kareemmelbana",
+  },
+  {
+    slug: "jabr-menswear",
+    name: "JABR — Men's Wear Storefront",
+    role: "Software Engineer / Frontend Developer",
+    description:
+      "Modern e-commerce storefront for a men's clothing brand featuring product collections, winter piece customization, and a responsive shopping experience.",
+    image: "/images/projects/Warm Beige.jpg",
+    alt: "JABR men's wear e-commerce website preview",
+    features: [
+      "Product catalog & collections",
+      "Category & arrival filtering",
+      "Winter piece customization",
+      "Dynamic free-shipping threshold",
+      "Mobile-first responsive layout",
+    ],
+    tech: ["React.js", "Tailwind CSS", "Vercel"],
+    demo: "https://jabr-menswear.vercel.app/",
+    source: "https://github.com/kareemmelbana",
+},
   {
     slug: "keyc",
     name: "Keyc — Securely Delivered",
     role: "Software Engineer / Frontend Developer",
     description:
       "Product site for a secure delivery service, structured to walk visitors from the value proposition through to contact.",
-    image: "/images/projects/keyc.jpg",
+    image: "/images/projects/hero-keyc.jpg",
     alt: "Product website for a secure delivery service with a dark hero section",
     features: [
       "Component-based architecture",
@@ -155,13 +191,13 @@ export const featuredProjects: Project[] = [
     source: "https://github.com/kareemmelbana",
   },
   {
-    slug: "menu",
-    name: "Digital Restaurant Menu",
+    slug: "loqmet-maleh-w-hali",
+    name: "Loqmet Maleh W Hali — Digital Menu",
     role: "Software Engineer / Frontend Developer",
     description:
-      "Interactive digital menu for a restaurant: categorised dishes with images and prices, built for phone-first browsing at the table.",
+      "Interactive digital menu for Loqmet Maleh W Hali restaurant, showcasing sweet and savory dishes with images and prices for fast, phone-first browsing at the table.",
     image: "/images/projects/menu.jpg",
-    alt: "Digital restaurant menu web app showing dish cards on a dark background",
+    alt: "Loqmet Maleh W Hali digital restaurant menu showing dish cards on a dark background",
     features: [
       "Categorised menu items",
       "Phone-first layout",
@@ -176,68 +212,29 @@ export const featuredProjects: Project[] = [
 
 export const moreProjects: Project[] = [
   {
-    slug: "ekofan-car",
-    name: "Ekofan Car",
+    slug: "bessa",
+    name: "Bessa Project",
     role: "Software Engineer / Frontend Developer",
     description:
-      "Responsive car-focused website with a clear browsing experience and modern presentation.",
-    image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_24_48 PM.png",
-    alt: "Car website project preview",
+      "Modern responsive website built to present a project clearly across desktop and mobile screens.",
+    image: "/images/projects/hero-cat.jpg",
+    alt: "Bessa project website preview",
     features: [],
     tech: ["React.js", "Tailwind CSS", "Vercel"],
-    demo: "https://ekofancar.vercel.app/",
+    demo: "https://bessa-project.vercel.app/",
     source: "https://github.com/kareemmelbana",
   },
-  {
-    slug: "specialty-burger",
-    name: "Specialty Burger",
-    role: "Software Engineer / Frontend Developer",
-    description:
-      "Restaurant website designed to showcase a burger menu with a responsive, appetising layout.",
-    image: "/images/projects/specialty-burger.png",
-    alt: "Specialty burger restaurant website preview",
-    features: [],
-    tech: ["React.js", "Tailwind CSS", "Vercel"],
-    demo: "https://specialty-burger.vercel.app/",
-    source: "https://github.com/kareemmelbana",
-  },
-  // {
-  //   slug: "bessa",
-  //   name: "Bessa Project",
-  //   role: "Software Engineer / Frontend Developer",
-  //   description:
-  //     "Modern responsive website built to present a project clearly across desktop and mobile screens.",
-  //   image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_26_01 PM.png",
-  //   alt: "Bessa project website preview",
-  //   features: [],
-  //   tech: ["React.js", "Tailwind CSS", "Vercel"],
-  //   demo: "https://bessa-project.vercel.app/",
-  //   source: "https://github.com/kareemmelbana",
-  // },
   {
     slug: "homeclean",
     name: "Home Clean — Cleaning Service",
     role: "Software Engineer / Frontend Developer",
     description:
       "Responsive landing page for a home-cleaning service in Jazan: services, pricing, information and direct customer contact.",
-    image: "/images/projects/homeclean.jpg",
+    image: "/images/projects/maid.jpg",
     alt: "Home cleaning service landing page with service cards",
     features: [],
     tech: ["HTML5", "CSS3", "JavaScript"],
     demo: "https://kareemmelbana.github.io/Web/",
-    source: "https://github.com/kareemmelbana",
-  },
-  {
-    slug: "cafe",
-    name: "Café Website",
-    role: "Software Engineer / Frontend Developer",
-    description:
-      "Café website with hero, menu and gallery sections — smooth scrolling and a fully responsive layout.",
-    image: "/images/projects/cafe.jpg",
-    alt: "Café website landing page with coffee photography",
-    features: [],
-    tech: ["React.js", "Tailwind CSS", "Vercel"],
-    demo: "https://cafe-ashen-five.vercel.app/",
     source: "https://github.com/kareemmelbana",
   },
   {
@@ -246,7 +243,7 @@ export const moreProjects: Project[] = [
     role: "Software Engineer / Frontend Developer",
     description:
       "Restaurant landing page with a full menu, special offers and photo gallery — hand-built and fully responsive.",
-    image: "/images/projects/restaurant.jpg",
+    image: "/images/projects/home_bg.jpeg",
     alt: "Restaurant website landing page with hero food photography",
     features: [],
     tech: ["HTML5", "CSS3", "Responsive"],
@@ -254,45 +251,45 @@ export const moreProjects: Project[] = [
     source: "https://github.com/kareemmelbana/Resturant-Page",
   },
   {
-    slug: "portfolio",
-    name: "Personal Portfolio",
-    role: "Software Engineer / Frontend Developer",
-    description:
-      "Multi-section portfolio with smooth scroll navigation, animated skill bars and live project links, written in vanilla JS.",
-    image: "/images/projects/portfolio.jpg",
-    alt: "Minimal developer portfolio website with large typography",
-    features: [],
-    tech: ["HTML5", "CSS3", "JavaScript"],
-    demo: "https://kareemmelbana.github.io/Portfolio",
-    source: "https://github.com/kareemmelbana/Portfolio",
-  },
-  {
     slug: "coffee-shop",
     name: "Coffee Shop",
     role: "Software Engineer / Frontend Developer",
     description:
       "Coffee shop website with a warm, responsive presentation for the brand, menu and customer experience.",
-    image: "/images/projects/ChatGPT Image Sep 20, 2026, 10_28_13 PM.png",
+    image: "/images/projects/coffee-home.jpg",
     alt: "Coffee shop website project preview",
     features: [],
     tech: ["HTML5", "CSS3", "JavaScript"],
     demo: "https://kareemmelbana.github.io/coffe-shop/",
     source: "https://github.com/kareemmelbana",
   },
+  {
+    slug: "nahr-alsoyoula-logistics",
+    name: "Nahr Alsoyoula Logistics",
+    role: "Software Engineer / Frontend Developer",
+    description:
+      "Professional logistics website focused on services, trust and straightforward customer contact.",
+    image: "/images/projects/Nahr-Alsoyoula.png",
+    alt: "Logistics website project preview",
+    features: [],
+    tech: ["React.js", "Tailwind CSS", "Vercel"],
+    demo: "https://nahr-alsoyoula-logistics.vercel.app/",
+    source: "https://github.com/kareemmelbana",
+  },
 ];
 
 export const experience = [
   {
-  tag: "Freelance",
-  period: "2025 – Present",
-  role: "Freelance Software Engineer",
-  org: "Self-employed · Khamsat",
-  points: [
-    "Develop responsive websites and modern web applications using React, TypeScript, and Tailwind CSS.",
-    "Build user-friendly interfaces with a focus on performance, responsiveness, and accessibility.",
-    "Work directly with clients from requirements and development to deployment and final delivery."
-  ],
-},
+    tag: "Freelance",
+    period: "2025 — Present",
+    role: "Freelance Software Engineer",
+    org: "Self-employed · Khamsat",
+    points: [
+      "Build client websites and web apps with React, Tailwind CSS and vanilla HTML/CSS/JS.",
+      "Deliver fully responsive layouts and right-to-left Arabic interfaces.",
+      "Handle the full cycle: design hand-off, development, deployment and iteration.",
+    ],
+  },
   {
     tag: "Training",
     period: "2025",

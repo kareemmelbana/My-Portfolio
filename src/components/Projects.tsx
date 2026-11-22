@@ -146,7 +146,7 @@ export function Projects() {
       index="04"
       label="Projects"
       title="Featured projects"
-      intro="Selected websites and applications built for clients and real-world projects.."
+      intro="Real websites and applications built for clients and coursework."
     >
       <div className="space-y-6">
         {featuredProjects.map((project, i) => (
