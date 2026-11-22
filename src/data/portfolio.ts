@@ -292,7 +292,7 @@ export const experience = [
   },
   {
     tag: "Training",
-    period: "2025",
+    period: "June 2025 — December 2025",
     role: "React Development Track",
     org: "Digital Egypt Pioneers Initiative (DEPI) — Round 3",
     points: [
