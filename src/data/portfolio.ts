@@ -205,7 +205,7 @@ export const featuredProjects: Project[] = [
       "Responsive design",
     ],
     tech: ["React.js", "JavaScript", "Tailwind CSS", "Vercel"],
-    demo: "https://menu-for-resturantt.vercel.app/",
+    demo: "https://lequma-menu.vercel.app/",
     source: "https://github.com/kareemmelbana",
   },
 ];
